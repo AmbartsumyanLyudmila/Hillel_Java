@@ -6,8 +6,8 @@ public class CylinderVolume {
     }
 
     public static void main(String[] args) {
-        double radius = 2;
-        double height = 10;
+        double radius = 3;
+        double height = 9;
 
         double volume = cylinderVolume(radius, height);
         System.out.println("radius = "+ radius);
