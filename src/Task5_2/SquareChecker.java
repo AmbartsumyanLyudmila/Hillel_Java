@@ -13,7 +13,7 @@ public class SquareChecker {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введіть ціле число - ");
+        System.out.print("Введіть ціле число  ");
         int number = scanner.nextInt();
         if (isSquareNumber(number)) {
             System.out.println(number + " є квадратом цілого числа");
