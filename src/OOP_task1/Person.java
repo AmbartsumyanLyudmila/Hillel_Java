@@ -37,5 +37,10 @@ public class Person {
     public String getProfession() {
         return profession;
     }
+
+    //change profession
+    public void changeProfession(String updateProfession){
+        this.profession=updateProfession;
+    }
 }
 
