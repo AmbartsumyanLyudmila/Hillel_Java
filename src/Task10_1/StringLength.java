@@ -17,16 +17,16 @@ public class StringLength {
     }
 
     public static void main(String[] args) {
-        String[] input1 = {"a", "bb", "a", "bb"};
-        String[] input2 = {"this", "and", "that", "and"};
-        String[] input3 = {"code", "code", "code", "bug"};
+        String[] array1 = {"a", "bb", "a", "bb"};
+        String[] array2 = {"this", "and", "that", "and"};
+        String[] array3= {"code", "code", "code", "bug"};
 
-        Map<String, Integer> output1 = getLengthOfStrings(input1);
-        Map<String, Integer> output2 = getLengthOfStrings(input2);
-        Map<String, Integer> output3 = getLengthOfStrings(input3);
-        System.out.println(output3);
-        System.out.println(output2);
-        System.out.println(output1);
+        Map<String, Integer> result1 = getLengthOfStrings(array1);
+        Map<String, Integer> result2 = getLengthOfStrings(array2);
+        Map<String, Integer> result3 = getLengthOfStrings(array3);
+        System.out.println(result3);
+        System.out.println(result2);
+        System.out.println(result1);
     }
 }
 
