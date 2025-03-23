@@ -10,7 +10,7 @@ public class TreeSetUnification {
         TreeSet<Integer> result = new TreeSet<>();
         result.addAll(treeSetA);
         result.addAll(treeSetB);
-        System.out.println("Combined TreeSet: " + result);
+        System.out.println("Tree Set unification: " + result);
     }
 }
 
