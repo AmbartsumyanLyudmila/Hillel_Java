@@ -3,8 +3,8 @@ package Task14_1;
 public class Main {
     public static void main(String[] args) {
         try{
-        Person per1 = new Man("Den", 2, PersonRole.ARTIST);
-        Person per2 = new Woman("Liza", -25, PersonRole.STUDENT);
+        Person per1 = new Man("Den", -2, PersonRole.ARTIST);
+        Person per2 = new Woman("Liza", 25, PersonRole.STUDENT);
         Person per3 = new Man("Vlad", 35, PersonRole.DOCTOR);
 
         System.out.println("Information about people BEFORE changing profession");
