@@ -7,9 +7,9 @@ public abstract class Person implements Displayable {
 
 
     //constructor
-    public Person(String name, int age, PersonRole profession) {
+    public Person(String name, int age, PersonRole profession) throws NameException {
         if (name == null || name.trim().isEmpty()) {
-            throw new IllegalArgumentException("Name must be a string");
+            throw new NameException("Name must be a string");
         }
         this.name = name;
 
@@ -21,9 +21,9 @@ public abstract class Person implements Displayable {
     }
 
     //Setter
-    public void setName(String name) {
+    public void setName(String name) throws NameException{
         if (name == null || name.trim().isEmpty()) {
-            throw new IllegalArgumentException("Name must be a string");
+            throw new NameException("Name must be a string");
         }
         this.name = name;
     }

@@ -3,7 +3,7 @@ package Task14_1;
 public class Main {
     public static void main(String[] args) {
         try{
-            Person per1 = new Man("Den", -2, PersonRole.ARTIST);
+            Person per1 = new Man("", 20, PersonRole.ARTIST);
             Person per2 = new Woman("Liza", 25, PersonRole.STUDENT);
             Person per3 = new Man("Vlad", 35, PersonRole.DOCTOR);
 
@@ -16,7 +16,9 @@ public class Main {
             per1.changeProfession(PersonRole.DOCTOR);
             per2.changeProfession(PersonRole.TEACHER);
             per3.changeProfession(PersonRole.OTHER);}
-        catch (IllegalArgumentException e) {
+        catch (NameException e) {
+            System.out.println("Error: " + e.getMessage());
+        } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
         }
     }

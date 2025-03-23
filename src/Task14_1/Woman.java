@@ -4,7 +4,7 @@ package Task14_1;
 public class Woman extends Person {
     public static final String Gender = "Female";
 
-    public Woman(String name, int age, PersonRole profession) {
+    public Woman(String name, int age, PersonRole profession) throws NameException{
 
         super(name, age, profession);
     }

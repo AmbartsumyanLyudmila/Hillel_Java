@@ -3,7 +3,7 @@ package Task14_1;
 public class Man extends Person {
     public static final String Gender = "Male";
 
-    public Man(String name, int age, PersonRole profession) {
+    public Man(String name, int age, PersonRole profession) throws NameException{
         super(name, age, profession);
     }
 
